@@ -16,3 +16,22 @@ printf("\t PROCESS \tBURST TIME \t WAITING TIME\t TURNAROUND TIME\n");
 for(i=0;i<n;i++)
 printf("\n\t P%d \t\t %d \t\t %d \t\t %d", i, bt[i], wt[i], tat[i]); printf("\nAverage Waiting Time -- %f", wtavg/n); printf("\nAverage Turnaround Time -- %f", tatavg/n);
 }
+
+output:
+Enter the number of processes -- 4 
+
+Enter Burst Time for Process 0 -- 1
+
+Enter Burst Time for Process 1 -- 6
+
+Enter Burst Time for Process 2 -- 7
+
+Enter Burst Time for Process 3 -- 4
+	 PROCESS 	BURST TIME 	 WAITING TIME	 TURNAROUND TIME
+
+	 P0 		 1 		 0 		 1
+	 P1 		 6 		 1 		 7
+	 P2 		 7 		 7 		 14
+	 P3 		 4 		 14 		 18
+Average Waiting Time -- 5.500000
+Average Turnaround Time -- 10.000000
